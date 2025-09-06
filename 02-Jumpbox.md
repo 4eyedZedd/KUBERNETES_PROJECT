@@ -7,7 +7,7 @@ JumpBox is an administration machine that will be used as a home base when setti
 
 N.B: Run all commands as root
 
-1. Login to the jumpbox server: `ssh -i "k8skeypair.pem" <user@publicDNS url>`.
+1. Login to the jumpbox server: `ssh -i <"yourkeypair.pem"> <user@publicDNS url>`.
 
 2. Install command line Utilities
 
@@ -39,4 +39,5 @@ wget -q --show-progress \
   -i downloads-$(dpkg --print-architecture).txt
 ```
 
-Check 
+
+    The downloaded binaries will be in the   
