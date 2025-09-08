@@ -12,6 +12,6 @@
 |    node-1     |    Kubernetes worker node     |  1       |    2GB     |     20GB    |
 
 2. Connect to the instance using SSH.
-3. Run `cat /etc/os-release` to validate the servers meet the requirement. At the time of documenting this, AWS has only Debian 13. See image below:
+3. Run `cat /etc/os-release` to validate the servers meet the requirement. At the time of documenting this, Debian 12 was on the market place, so I used what was available. See image below:
 
-![alt text](<Kuberntes_project_images/Screenshot 2025-09-06 085242.png>)
+![alt text](<Kuberntes_project_images/confirm os release of your machine.png>)
